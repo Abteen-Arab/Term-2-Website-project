@@ -1,0 +1,24 @@
+	@font-face {
+		font-family: Clash Royale;
+		src: url(Supercell-Magic.ttf);
+		font-style: normal;
+		font-weight: 100;
+	}
+
+	body {
+		font-weight: 30;
+		font-family: Clash Royale;
+		background-color: black;
+		color: #AAB3AB;
+		font-size: 15pt;
+		background-image: url('background.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	
+img.title {
+		margin-left: auto;
+		margin-right: auto;
+		float: left;
+	}
