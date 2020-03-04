@@ -1,0 +1,104 @@
+	@font-face {
+		font-family: Clash Royale;
+		src: url(blockhead.ttf);
+	}
+
+	body {
+		font-weight: 30;
+		font-family: Clash Royale;
+		background-color: black;
+		color: #AAB3AB;
+		font-size: 15pt;
+		background-image: url('background.png');
+		background-color: yellow;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	
+	img.title {
+		margin-left: 400px;
+	}
+	
+	.dropbtn {
+		background-color: #FFC500;
+		color: #1a6991;
+		padding: 16px;
+		font-size: 16px;
+		border: 3px solid #e0b700;
+		border-radius: 10px;
+		cursor: pointer;
+		box-shadow: 1px 5px 50px #0a0a0a;
+	}
+
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		right: 0;
+		background-color: rgba(255,197,0,0.9);
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		border-radius: 10px;
+		font-family: Clash Royale;
+	}
+
+	.dropdown-content a {
+		color: #dae8ed;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		font-family: Clash Royale;
+	}	
+
+	.dropdown-content a:hover {
+		background-color: #cca104;
+		border-radius: 10px;
+	}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+
+	.dropdown:hover .dropbtn {
+		background-color: #cca104;
+	}
+	
+	.body1 {
+		background-color: #808080;
+		background-size: 100px;
+		background-position: center;
+		width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-bottom: 150px;
+		padding: 30px;
+		border-radius: 10px;
+		border: 5px solid #878787;
+		box-shadow: 1px 5px 50px #0a0a0a;
+	}
+	
+	button {
+		font-family: Clash Royale;
+	}
+			
+	h1 {
+		font-weight: 100;
+		color: #d0d4db;
+		font-size: 40Pt;
+		
+	}
+	
+	p {
+		font-weight: 100;
+		color: #d0d4db;
+		font-size: 20Pt;
+	}
+	
+
