@@ -73,14 +73,14 @@
 		background-color: #808080;
 		background-size: 100px;
 		background-position: center;
-		width: 900px;
+		width: 1000px;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 20px;
-		margin-bottom: 150px;
-		padding: 30px;
-		border-radius: 10px;
-		border: 5px solid #878787;
+		margin-top: 53px;
+		margin-bottom: 300px;
+		padding: 10px;
+		border-radius: 15px;
+		border: 8px solid #878787;
 		box-shadow: 1px 5px 50px #0a0a0a;
 	}
 	
@@ -95,10 +95,38 @@
 		
 	}
 	
-	p {
+	.over {
 		font-weight: 100;
 		color: #d0d4db;
-		font-size: 20Pt;
+		font-size: 40Pt;
+		margin-left: 500px;
+		
 	}
 	
+	p {
+		font-weight: 100;
+		color: #302f2f;
+		font-size: 15Pt;
+	}
+	
+	.clash-royal {
+		margin-right: 200px;
+		margin-left: auto;
+		margin-top: auto;
+		float: right;
+		margin-right: 10px;
+		border-radius: 10px;
+		border: 5px solid #878787;
+		box-shadow: 1px 5px 50px #0a0a0a;
+	}
+	
+	iframe {
+		border-radius: 10px;
+		border: 5px solid #878787;
+		margin-right: auto;
+		margin-left: 200px;
+		margin-bottom: auto;
+	}
+	
+
 
